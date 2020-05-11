@@ -1,0 +1,18 @@
+img = gimp.image_list()[0]
+for layer in img.layers: print layer.offsets, layer.name
+
+
+GIMP 2.8.10 Python Console
+Python 2.7.5 (default, May 15 2013, 22:43:36) [MSC v.1500 32 bit (Intel)]
+>>> img = gimp.image_list()[0]
+>>> for layer in img.layers: print layer.offsets, layer.name
+... 
+(176, 87) Neck Infest
+(88, 249) MC Canal Mouth
+(96, 220) MC Starfish
+(137, 272) MC Choker
+(92, 121) Canal Mouth
+(209, 110) Werm Sex
+(73, 86) Sex Face
+(0, 0) Base
+>>> 
