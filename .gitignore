@@ -1,3 +1,5 @@
+*.exe
+
 # Cordova Global
 plugins/
 
@@ -99,3 +101,8 @@ $RECYCLE.BIN/
 .AppleDB
 .AppleDesktop
 .apdisk
+
+# Electron Platform
+platforms/electron/build
+platforms/electron/build-res
+platforms/electron/www

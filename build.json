@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./keystore/parasite.jks",
+            "storePassword": "Dragonzord5",
+            "alias": "Parasite",
+            "password" : "Dragonzord5",
+            "keystoreType": ""
+        },
+        "release": {
+            "keystore": "./keystore/parasite.jks",
+            "storePassword": "Dragonzord5",
+            "alias": "Parasite",
+            "password" : "Dragonzord5",
+            "keystoreType": ""
+        }
+    }
+}

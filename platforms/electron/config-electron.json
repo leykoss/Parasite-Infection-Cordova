@@ -1,0 +1,10 @@
+{
+  "browserWindowInstance": {
+    "loadURL": {
+      "url": "Parasite_Infection.html"
+    }
+  },
+  "browserWindow": {
+    "fullscreen": true
+  }
+}

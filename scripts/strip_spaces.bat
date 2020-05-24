@@ -1,6 +1,8 @@
 @echo off
 setlocal EnableExtensions DisableDelayedExpansion
-set "StartFolder=C:\Users\Zoilo Reyes\source\repos\Parasite\www"
+set "StartFolder=C:\Users\USERNAME\source\repos\Parasite\www\Images"
+
+echo %StartFolder%
 
 cd /D %SystemRoot%
 set "RenameError="

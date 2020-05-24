@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.13.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="CDVOrientation">
-        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
-    </feature>
-    <name>Parasite Infection</name>
+    <name short="Parasite">Parasite Infection</name>
     <description>
 Parasite Infection game
     </description>
     <author email="leykrvr@gmail.com" href="http://cordova.io">
         Leykoss
     </author>
-    <content src="Parasite_Infection.html" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -22,8 +22,14 @@ Parasite Infection game
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="scripts/RenameInitial.js" type="after_prepare" />
+    <hook src="scripts/MinifyHtml.js" type="after_prepare" />
     <allow-intent href="market:*" />
-    <icon density="mdpi" height="57" platform="ios" src="www/Images/Parasites/Werm_Small.png" width="57" />
+    <icon density="hdpi" src="res/android/mipmap-hdpi/ic_launcher.png" />
+    <icon density="mdpi" src="res/android/mipmap-mdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/android/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/android/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="res/android/mipmap-xxxhdpi/ic_launcher.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="Orientation" value="landscape" />
 </widget>

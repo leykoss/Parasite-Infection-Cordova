@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.12.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name short="ParInf">Parasite Infection</name>
+    <description>
+Parasite Infection game
+    </description>
+    <author email="leykrvr@gmail.com" href="http://cordova.io">
+        Leykoss
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <hook src="scripts/RenameInitial.js" type="after_prepare" />
+    <hook src="scripts/MinifyHtml.js" type="after_prepare" />
+    <preference name="Orientation" value="landscape" />
+</widget>
