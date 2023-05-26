@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.12.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name short="ParInf">Parasite Infection</name>
+<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.13.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name short="Parasite">Parasite Infection</name>
     <description>
 Parasite Infection game
     </description>
@@ -17,7 +17,6 @@ Parasite Infection game
     <allow-intent href="geo:*" />
     <hook src="scripts/RenameInitial.js" type="after_prepare" />
     <hook src="scripts/MinifyHtml.js" type="after_prepare" />
-    <hook src="scripts/CompressPNG.js" type="after_prepare" />
     <icon src="res/web_hi_res_512.png" target="app" />
     <icon src="res/web_hi_res_512.png " target="installer" />
     <preference name="Orientation" value="landscape" />

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.12.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name short="ParInf">Parasite Infection</name>
+<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.13.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name short="Parasite">Parasite Infection</name>
     <description>
 Parasite Infection game
     </description>

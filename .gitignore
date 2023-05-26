@@ -106,3 +106,5 @@ $RECYCLE.BIN/
 platforms/electron/build
 platforms/electron/build-res
 platforms/electron/www
+platforms/android/*
+www/*

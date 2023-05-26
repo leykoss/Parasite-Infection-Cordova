@@ -31,5 +31,4 @@ Parasite Infection game
     <icon density="xhdpi" src="res/android/mipmap-xxhdpi/ic_launcher.png" />
     <icon density="xxhdpi" src="res/android/mipmap-xxxhdpi/ic_launcher.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="Orientation" value="landscape" />
 </widget>
