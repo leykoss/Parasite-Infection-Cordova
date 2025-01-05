@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.parasiteinfection.parasiteinfectoingame" version="4.13.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name short="Parasite">Parasite Infection</name>
-    <description>
-Parasite Infection game
-    </description>
+<widget id="com.parasiteinfection.parasiteinfectiongame" version="5.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Parasite Infection</name>
+    <description>Sample Apache Cordova App</description>
     <author email="leykrvr@gmail.com" href="http://cordova.io">
         Leykoss
     </author>
@@ -11,14 +9,10 @@ Parasite Infection game
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <hook src="scripts/RenameInitial.js" type="after_prepare" />
     <hook src="scripts/MinifyHtml.js" type="after_prepare" />
     <icon src="res/web_hi_res_512.png" target="app" />
     <icon src="res/web_hi_res_512.png " target="installer" />
-    <preference name="Orientation" value="landscape" />
     <preference name="ElectronSettingsFilePath" value="res/electron/config.json" />
 </widget>
